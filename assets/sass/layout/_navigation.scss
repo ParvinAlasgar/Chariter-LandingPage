@@ -1,0 +1,14 @@
+#nav {
+  padding: 1rem 0;
+  background-color: $background-color;
+  left: 0;
+  z-index: 10;
+}
+@include for-small-devices {
+  .logo {
+    display: none;
+  }
+  ul {
+    justify-content: center !important;
+  }
+}

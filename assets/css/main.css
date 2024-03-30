@@ -1,0 +1,19 @@
+html {
+  font-size: 1rem;
+}
+
+#nav {
+  padding: 1rem 0;
+  background-color: #ff6378;
+  left: 0;
+  z-index: 10;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+  ul {
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=main.css.map */
