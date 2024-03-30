@@ -2,7 +2,7 @@ html {
   font-size: 1rem;
 }
 
-#header {
+#main #joy, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -107,4 +107,10 @@ html {
   #main #about h2 {
     font-size: 2rem !important;
   }
+}
+#main #joy {
+  background-image: url(/assets/images/section-bg1.jpg.webp);
+}
+#main #joy span {
+  font-size: 2.5rem;
 }/*# sourceMappingURL=main.css.map */

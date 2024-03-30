@@ -37,4 +37,12 @@
       }
     }
   }
+  // Joy
+  #joy {
+    background-image: url(/assets/images/section-bg1.jpg.webp);
+    @extend %background-image;
+    span {
+      font-size: 2.5rem;
+    }
+  }
 }
