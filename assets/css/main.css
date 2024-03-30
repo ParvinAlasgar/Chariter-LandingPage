@@ -2,13 +2,13 @@ html {
   font-size: 1rem;
 }
 
-#main #joy, #header {
+#main #blog, #main #joy, #header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-#header::after {
+#main #blog::after, #header::after {
   content: "";
   position: absolute;
   background-color: #000;
@@ -128,5 +128,21 @@ html {
 @media only screen and (max-width: 576px) {
   #main #for h2 {
     font-size: 2rem;
+  }
+}
+#main #blog {
+  background-image: url(/assets/images/section-bg2.jpg.webp);
+  position: relative;
+  z-index: 1;
+}
+#main #blog .wrapper {
+  padding: 4rem 2rem;
+}
+#main #blog .wrapper h2 {
+  font-size: 2.5rem;
+}
+@media (max-width: 992px) {
+  #main #blog h2 {
+    font-size: 2rem !important;
   }
 }/*# sourceMappingURL=main.css.map */
