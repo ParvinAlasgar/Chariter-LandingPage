@@ -24,13 +24,13 @@
 }
 // Small devices  (tablets, 576px and down)
 @mixin for-small-devices {
-  @media (max-width: 576px) {
+  @media only screen and (max-width: 576px) {
     @content;
   }
 }
 // Extra Small devices (tablets, 320px and down)
 @mixin for-extra-small-devices {
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     @content;
   }
 }

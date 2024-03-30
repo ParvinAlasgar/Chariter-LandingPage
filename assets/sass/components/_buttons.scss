@@ -1,0 +1,13 @@
+.primary-btn {
+  background-color: $background-color;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: $primary-color;
+  }
+  @include for-medium-devices {
+    padding: 1rem 4rem !important;
+  }
+}

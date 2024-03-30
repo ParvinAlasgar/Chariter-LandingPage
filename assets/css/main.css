@@ -2,6 +2,40 @@ html {
   font-size: 1rem;
 }
 
+#header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#header::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.primary-btn {
+  background-color: #ff6378;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  transition: background-color 0.5s;
+}
+.primary-btn:hover {
+  background-color: #c30047;
+}
+@media (max-width: 768px) {
+  .primary-btn {
+    padding: 1rem 4rem !important;
+  }
+}
+
 #nav {
   padding: 1rem 0;
   background-color: #ff6378;
@@ -9,11 +43,38 @@ html {
   z-index: 10;
 }
 
-@media (max-width: 576px) {
-  .logo {
+@media only screen and (max-width: 576px) {
+  #nav .logo {
     display: none;
   }
-  ul {
+  #nav ul {
     justify-content: center !important;
+  }
+}
+#header {
+  background-image: url(/assets/images/h1_hero1.jpg.webp);
+  margin-top: 3.7rem;
+  padding: 20rem 0;
+  position: relative;
+  z-index: 1;
+}
+#header h1 {
+  font-size: 4rem;
+}
+#header p {
+  margin-bottom: 2rem;
+}
+@media (max-width: 1200px) {
+  #header h1 {
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #header {
+    margin-top: 3.5rem;
+    padding: 10rem 0;
+  }
+  #header h1 {
+    font-size: 2rem !important;
   }
 }/*# sourceMappingURL=main.css.map */
