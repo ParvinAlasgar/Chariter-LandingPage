@@ -77,4 +77,26 @@ html {
   #header h1 {
     font-size: 2rem !important;
   }
+}
+
+#main #serving h2 {
+  font-size: 3rem;
+}
+#main #serving .wrapper {
+  cursor: pointer;
+}
+#main #serving .wrapper .image {
+  position: relative;
+  border-bottom: 0.4rem solid #ff6378;
+}
+#main #serving .wrapper .image img {
+  transition: transform 0.5s;
+}
+#main #serving .wrapper:hover img {
+  transform: scale(1.1);
+}
+@media (max-width: 1200px) {
+  #main #serving h2 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

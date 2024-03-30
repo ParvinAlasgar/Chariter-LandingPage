@@ -1,0 +1,29 @@
+// Main
+#main {
+  // Serving
+  #serving {
+    h2 {
+      font-size: 3rem;
+    }
+    .wrapper {
+      cursor: pointer;
+      .image {
+        position: relative;
+        border-bottom: 0.4rem solid $background-color;
+        img {
+          transition: transform 0.5s;
+        }
+      }
+      &:hover {
+        & img {
+          transform: scale(1.1);
+        }
+      }
+    }
+    @include for-x-large-devices {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
