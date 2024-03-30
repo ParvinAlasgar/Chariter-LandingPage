@@ -79,6 +79,10 @@ html {
   }
 }
 
+#footer {
+  background-color: #ff6378;
+}
+
 #main #serving h2 {
   font-size: 3rem;
 }
