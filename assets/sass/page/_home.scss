@@ -82,4 +82,15 @@
       }
     }
   }
+  // Contact
+  #contact {
+    h2 {
+      font-size: 2.5rem;
+    }
+    @include for-medium-devices {
+      h2 {
+        font-size: 2rem !important;
+      }
+    }
+  }
 }

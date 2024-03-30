@@ -145,4 +145,12 @@ html {
   #main #blog h2 {
     font-size: 2rem !important;
   }
+}
+#main #contact h2 {
+  font-size: 2.5rem;
+}
+@media (max-width: 768px) {
+  #main #contact h2 {
+    font-size: 2rem !important;
+  }
 }/*# sourceMappingURL=main.css.map */
