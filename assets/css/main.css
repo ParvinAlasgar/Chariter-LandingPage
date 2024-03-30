@@ -113,4 +113,20 @@ html {
 }
 #main #joy span {
   font-size: 2.5rem;
+}
+#main #for h2 {
+  font-size: 3rem;
+}
+#main #for i {
+  color: #c30047;
+}
+@media (max-width: 768px) {
+  #main #for h2 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #main #for h2 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
