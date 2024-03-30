@@ -52,7 +52,7 @@ html {
   }
 }
 #header {
-  background-image: url(/assets/images/h1_hero1.jpg.webp);
+  background-image: url("../images/h1_hero1.jpg.webp");
   margin-top: 3.7rem;
   padding: 20rem 0;
   position: relative;
@@ -113,7 +113,7 @@ html {
   }
 }
 #main #joy {
-  background-image: url(/assets/images/section-bg1.jpg.webp);
+  background-image: url("../images/section-bg1.jpg.webp");
 }
 #main #joy span {
   font-size: 2.5rem;
@@ -135,7 +135,7 @@ html {
   }
 }
 #main #blog {
-  background-image: url(/assets/images/section-bg2.jpg.webp);
+  background-image: url("../images/section-bg2.jpg.webp");
   position: relative;
   z-index: 1;
 }
